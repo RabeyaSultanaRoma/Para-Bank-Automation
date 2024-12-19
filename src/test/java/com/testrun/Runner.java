@@ -10,9 +10,9 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 		plugin = {"json:target/cucumber.json"}, //generate report = cucumber maven project
-		features = {"./src/main/resources/ParabankLoginValidMultipleCredential.feature"}, //feature file location or path
+		features = {"./src/main/resources/ParabankLogin.feature"}, //feature file location or path
 		glue = {"com.generic"}, //step def package name
-		tags = {"@Smoke"}, //which scenario = pos/neg or which test type to run
+		tags = {"@Smoke","@Positive"}, //which scenario = pos/neg or which test type to run
 		dryRun = false, //check feature file correct or not
 		strict = true, //step def automation code correct or not
 		monochrome = true //remove all? mark and make easy to read console

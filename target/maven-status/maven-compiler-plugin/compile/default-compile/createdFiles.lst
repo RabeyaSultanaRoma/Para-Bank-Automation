@@ -1,2 +1,5 @@
+com\util\BaseConfig.class
 com\generic\SeleniumPageFactory.class
 com\generic\StepDef.class
+com\excel\read\ExcelManager.class
+com\util\HandleExampleTableData.class
